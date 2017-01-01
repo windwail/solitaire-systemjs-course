@@ -5,7 +5,7 @@ import RemainderPile from "../../../app/klondike/piles/remainderPile.js";
 import TableauPile from "../../../app/klondike/piles/tableauPile.js";
 import FoundationPile from "../../../app/klondike/piles/foundationPile.js";
 import Pile from "../../../app/klondike/piles/pile.js";
-
+import {module, inject} from "angular-mocks";
 
 describe("A pile", function () {
   "use strict";

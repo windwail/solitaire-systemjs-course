@@ -1,8 +1,10 @@
 import Deck from "deck";
 import Card from "card";
+import _ from "underscore";
 import RemainderPile from "../../app/klondike/piles/remainderPile.js";
 import TableauPile from "../../app/klondike/piles/tableauPile.js";
 import FoundationPile from "../../app/klondike/piles/foundationPile.js";
+import {module, inject} from "angular-mocks";
 
 describe("A game of klondike", function () {
   "use strict";

@@ -2,6 +2,7 @@ import Card from "card";
 import RemainderPile from "../../app/klondike/piles/remainderPile.js";
 import TableauPile from "../../app/klondike/piles/tableauPile.js";
 import FoundationPile from "../../app/klondike/piles/foundationPile.js";
+import {module, inject} from "angular-mocks";
 
 describe("The score", function () {
   "use strict";
